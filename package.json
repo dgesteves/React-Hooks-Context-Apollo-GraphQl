@@ -1,0 +1,23 @@
+{
+  "name": "full-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index",
+    "start": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.6.8",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^14.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
